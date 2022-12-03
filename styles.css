@@ -1,0 +1,18 @@
+body{
+    
+}
+/* ......... the header section.......... */
+header{
+    width: 375px;
+    height: 48px;
+    background: #3C3A39;
+    display: flex;
+    justify-content: space-around;
+    color: #FFFFFF;
+    padding-top: 44px;
+}
+.name{
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+}
+
