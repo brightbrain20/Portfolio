@@ -1,66 +1,60 @@
-body{
-    
-}
+
 /* ......... the header section.......... */
-header{
-    width: 375px;
-    height: 48px;
-    background: #3C3A39;
-    display: flex;
-    justify-content: space-around;
-    color: #FFFFFF;
-    padding-top: 44px;
-    width: 100%;
+header {
+  width: 375px;
+  height: 48px;
+  background: #3c3a39;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  padding-top: 44px;
 }
-.name{
-    font-family: 'Roboto', sans-serif;
-    line-height: 24px;
-    
+
+.name {
+  font-family: 'Roboto', sans-serif;
+  line-height: 24px;
 }
 
 /* ............headline section............. */
 
-
- .headline{
-    background: #1C1A19;  
-    color: #FFFFFF;
-    padding-bottom: 80px;
-    padding-top: 80px;
-    padding-left: 20px;
+.headline {
+  background: #1c1a19;
+  color: #fff;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  padding-left: 20px;
 }
 
-h1{
-    font-family: 'Crete Round', serif;
-    color: #FF6B00;
-    letter-spacing: 0.37px;
-    margin: 0;
-    font-size: 56px;
-    font-weight: 400;
-    width: 300px;
-    padding-top: 80px;
-    line-height: 64px;
-    
-    
+h1 {
+  font-family: 'Crete Round', serif;
+  color: #ff6b00;
+  letter-spacing: 0.37px;
+  margin: 0;
+  font-size: 56px;
+  font-weight: 400;
+  width: 300px;
+  padding-top: 80px;
+  line-height: 64px;
 }
-span{
+
+span {
   width: 300px;
   height: 27px;
   font-size: 25px;
   font-family: 'Roboto', sans-serif;
 }
 
-p{
-    font-family: 'Poppins', sans-serif;  
-   font-size:7;
-   width: 4000px;   
-}
-ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
-    width: 250px;
-    font-size: 30px;
-    padding-left: 0;
-    
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 7;
+  width: 4000px;
 }
 
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 250px;
+  font-size: 30px;
+  padding-left: 0;
+}

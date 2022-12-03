@@ -57,15 +57,17 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Portfolio setup] <a name="about-project">Portfolio setup and mobile first</a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**[Portfolio setup]** setting up header and headline 
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With
+ <a name="built-with">Html</a>
+ <a name="built-with">CSS</a>
 
-### Tech Stack <a name="tech-stack"></a>
+<!-- ### Tech Stack <a name="tech-stack"></a>
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
@@ -170,9 +172,9 @@ Example command:
 ```
 --->
 
-### Run tests
+<!-- ### Run tests
 
-To run tests, run the following command:
+To run tests, run the following command: -->
 
 <!--
 Example command:
@@ -182,9 +184,9 @@ Example command:
 ```
 --->
 
-### Deployment
+<!-- ### Deployment
 
-You can deploy this project using:
+You can deploy this project using: -->
 
 <!--
 Example:
@@ -194,7 +196,7 @@ Example:
 ```
  -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> --> -->
 
 <!-- AUTHORS -->
 
@@ -204,11 +206,11 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/brightbrain20)
+- Twitter: [@twitterhandle](https://twitter.com/BrightEzeamaka)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bright-ezeamaka-752837237/)
 
-👤 **Author2**
+<!-- 👤 **Author2**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
@@ -217,7 +219,7 @@ Example:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
-
+<!-- 
 ## 🔭 Future Features <a name="future-features"></a>
 
 > Describe 1 - 3 features you will add to the project.
@@ -226,7 +228,7 @@ Example:
 - [ ] **[new_feature_2]**
 - [ ] **[new_feature_3]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> --> -->
 
 <!-- CONTRIBUTING -->
 
@@ -240,7 +242,7 @@ Feel free to check the [issues page](../../issues/).
 
 <!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
+<!-- ## ⭐️ Show your support <a name="support"></a>
 
 > Write a message to encourage readers to support your project
 
@@ -250,17 +252,17 @@ If you like this project...
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+<!-- ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > Give credit to everyone who inspired your codebase.
 
 I would like to thank...
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> --> -->
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ <a name="faq"></a>
+<!-- ## ❓ FAQ <a name="faq"></a>
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
@@ -272,13 +274,13 @@ I would like to thank...
 
   - [Answer_2]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- LICENSE -->
 
-## 📝 License <a name="license"></a>
+<!-- ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE) licensed. -->
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
