@@ -1,18 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
 
 /* ......... the header section.......... */
 header {
-  width: 375px;
-  height: 48px;
   background: #3c3a39;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   color: #fff;
-  padding-top: 44px;
+  padding: 15px;
 }
 
-.name {
+.logo {
   font-family: 'Roboto', sans-serif;
   line-height: 24px;
+  font-weight: 700;
+  font-size: 18px;
+
 }
 
 /* ............headline section............. */
@@ -20,41 +26,49 @@ header {
 .headline {
   background: #1c1a19;
   color: #fff;
-  padding-bottom: 80px;
-  padding-top: 80px;
-  padding-left: 20px;
+  padding: 130px 25px 145px;
+  background-image: url(./Images/Group.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+
+  
 }
 
 h1 {
-  font-family: 'Crete Round', serif;
+  font-family: 'Crete Round', sans-serif;
   color: #ff6b00;
   letter-spacing: 0.37px;
-  margin: 0;
   font-size: 56px;
   font-weight: 400;
   width: 300px;
-  padding-top: 80px;
   line-height: 64px;
 }
 
 span {
-  width: 300px;
   height: 27px;
-  font-size: 25px;
+  font-size: 24px;
+  color: #fff5e1;
   font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 p {
   font-family: 'Poppins', sans-serif;
-  font-size: 7;
-  width: 4000px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #fff;
+  margin: 10px 0 10px 0;
+  width: 327px;
 }
 
 ul {
   list-style-type: none;
   display: flex;
-  justify-content: space-evenly;
-  width: 250px;
-  font-size: 30px;
-  padding-left: 0;
+  justify-content: space-between;
+  width: 180px;
+  font-size: 20px;
+  margin-top: 25px;
+  
 }
+
