@@ -1,7 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
 }
 
 /* ......... the header section.......... */
@@ -18,7 +18,6 @@ header {
   line-height: 24px;
   font-weight: 700;
   font-size: 18px;
-
 }
 
 /* ............headline section............. */
@@ -30,8 +29,6 @@ header {
   background-image: url(./Images/Group.png);
   background-position: bottom right;
   background-repeat: no-repeat;
-
-  
 }
 
 h1 {
@@ -69,6 +66,4 @@ ul {
   width: 180px;
   font-size: 20px;
   margin-top: 25px;
-  
 }
-
