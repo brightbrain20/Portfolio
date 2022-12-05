@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+/* ......... the header section.......... */
+header {
+  background: #3c3a39;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 15px;
+}
+
+.logo {
+  font-family: 'Roboto', sans-serif;
+  line-height: 24px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* ............headline section............. */
+
+.headline {
+  background: #1c1a19;
+  color: #fff;
+  padding: 130px 25px 145px;
+  background-image: url(./Images/Group.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: 'Crete Round', sans-serif;
+  color: #ff6b00;
+  letter-spacing: 0.37px;
+  font-size: 56px;
+  font-weight: 400;
+  width: 300px;
+  line-height: 64px;
+}
+
+span {
+  height: 27px;
+  font-size: 24px;
+  color: #fff5e1;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #fff;
+  margin: 10px 0 10px 0;
+  width: 327px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+  font-size: 20px;
+  margin-top: 25px;
+}
