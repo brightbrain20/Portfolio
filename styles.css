@@ -67,3 +67,86 @@ ul {
   font-size: 20px;
   margin-top: 25px;
 }
+
+/* .........About myself section........... */
+.About-myself{
+  width: 90%;
+  margin: auto;
+}
+.Recent-work{
+  margin-top: 80px;
+  /* padding: 24px; */
+  
+}
+.Recent{
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #1C1A19;
+  height: 83px;
+}
+.line{
+  border: 1px solid #212121;
+}
+.about-img{
+  height: 237px;
+  /* padding: 24px; */
+  margin-top: 50px;
+  
+} 
+.Multi-Post-Heading{
+  font-family: 'Crete Round', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091E42;
+  /* padding: 0 24px; */
+}
+.Multi-Post-stories{
+  font-family: 'Inter' , sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091E42;
+  margin-top: 12px;
+  /* height: 147px; */
+  /* padding: 0 24px; */
+  line-height: 24px;
+}
+.Multi-Post-ul{
+  width: 100%;
+  margin-bottom: 15px;
+  
+}
+.Multi-Post-li{
+  /* height: 30px;
+  width: 50px;
+  padding: 10px 15px 0 ;
+  margin-right: 12px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  border: 1px solid #8993A4; */
+  border: 1px solid #8993A4; 
+  padding: 9px 12px;
+  margin-right: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+.bootstrap{
+  
+}
+
+.Multi-Post-project{
+align-items: center;
+/* padding:12px; */
+gap: 10px;
+width: 124px;
+height: 48px;
+background: #FF6B00;
+/* margin: 10px 0 0 24px; */
+color: #fff;
+}
