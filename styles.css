@@ -69,6 +69,8 @@ ul {
 
 /* .........About myself section........... */
 .About-myself {
+  display: flex;
+  flex-direction: column;
   width: 90%;
   margin: auto;
 }
@@ -144,6 +146,9 @@ ul {
   margin: auto;
   background-color: #fff;
   padding-bottom: 120px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
 }
 
 .art-container {
@@ -193,6 +198,9 @@ a {
   display: block;
   display: flex;
   justify-content: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
 }
 
 .profesional-Art-btm {
@@ -213,7 +221,7 @@ a.profesional-Art-btm {
 }
 
 /* ..........footer section.......... */
-footer {
+.about {
   width: 100%;
   background: #1c1a19;
 }
@@ -298,6 +306,7 @@ h2 {
   background-color: #fff5e1;
   color: #f55800;
   border: 1px solid #f55800;
+  font-weight: 700;
 }
 
 .button:disabled {
