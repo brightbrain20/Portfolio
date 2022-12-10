@@ -131,10 +131,10 @@ width: 124px;
 height: 48px;
 background: #FF6B00;
 color: #fff;
+border-style: none;
 }
 /* ...........work section.......... */
 .work-container{
-  /* margin-top: 24px; */
   width: 90%;
   margin: auto;
   background-color: #fff;
@@ -189,9 +189,10 @@ color: #fff;
   text-align: center;
   letter-spacing: 0.03em;
   margin-top: 22px;  
+  border-style: none;
 }
 /* ..........footer section.......... */
-/* footer{
+ footer{
   width: 100%;
   background: #1C1A19;
 }
@@ -217,7 +218,6 @@ h2{
 }
 .footer-btm{
   width: 161px;
-  /* height: 48px; */
   align-items: center;
   padding: 12px;
   gap: 10px;
@@ -225,8 +225,115 @@ h2{
   background: #FF6B00;
   color: #fff;
   margin-left: 24px;
+  border-style: none;
 }
 .footer-img{
   padding-left: 212px;
-  margin-top: 0;
-} */
+  
+} 
+.footer-hr{
+  border: 1px solid #FFFFFF;
+  width: 90%;
+  margin: auto;
+}
+.footer-list{
+  text-align: center;
+  padding-top: 100px;
+}
+.footer-heading{
+font-size: 22px;
+font-weight: 700px;
+
+}
+.footer-ul{
+  display: inline-block;
+}
+.footer-li{
+  font-family: 'Inter', sans-serif; 
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+  padding-bottom: 32px;
+}
+.work{
+  text-align: center;
+}
+.skill{
+  text-align: center;
+  padding-bottom: 50px;
+}
+/* ..........Form section............. */
+.form{
+background: #E5E5E5;
+width: 100%;
+}
+.form-content{
+  padding-top: 120px;
+  font-family: 'Inter', sans-serif; 
+  font-weight: 700;
+  font-size: 32px;
+  color: #172B4D;
+  line-height: 44px;
+}
+.form-container{
+  width: 90%;
+  margin: auto;
+}
+.sign-up{
+  padding-top: 73px;
+}
+::placeholder{
+  font-family: 'Inter', sans-serif; 
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+  width: 295px;
+  height: 18px;
+  display: block;
+  padding: 0 0 0 20px;
+}
+input{
+  padding-top: 10px;
+  border-style: none none groove none;
+  width: 100%;
+  font-size: 24px;
+}
+textarea{
+  width: 100%;
+  margin-top: 20px;
+  border-style: none;
+  margin-bottom: 24px;
+  }
+.sign-up-btm{
+  margin: 0 95px;
+  font-family: 'Inter', sans-serif; 
+  font-size: 17px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: #FF6B00;;
+  letter-spacing: 0.03em;
+  width: 50%;
+  padding: 10px;
+  border-style: none;
+  margin-bottom: 100px;
+}
+.footer-line{
+  border: 1px solid ;
+}
+.fontawsome-ul{
+  padding-left: 90PX;
+  
+}
+.fa-brands{
+  background: #505F79;
+  font-size: 17px;
+}
+/* ..........btm hover state............ */
+button:hover{
+  background-color: #FFF5E1;
+  color: #F55800;
+}
+button:disabled{
+  background-color: #F4F1F0;
+  color: #5B5957;
+}
