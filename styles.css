@@ -84,7 +84,7 @@ ul {
   font-size: 40px;
   line-height: 52px;
   text-align: center;
-  color: #1C1A19;
+  color: #1c1a19;
   height: 83px;
 }
 
@@ -95,7 +95,6 @@ ul {
 .about-img {
   height: 237px;
   margin-top: 50px;
-
 }
 
 .Multi-Post-Heading {
@@ -103,8 +102,7 @@ ul {
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #091E42;
-
+  color: #091e42;
 }
 
 .Multi-Post-stories {
@@ -112,8 +110,7 @@ ul {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
-  color: #091E42;
+  color: #091e42;
   margin-top: 12px;
   line-height: 24px;
 }
@@ -121,11 +118,10 @@ ul {
 .Multi-Post-ul {
   width: 100%;
   margin-bottom: 15px;
-
 }
 
 .Multi-Post-li {
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
   padding: 9px 12px;
   margin-right: 10px;
   font-family: 'Inter', sans-serif;
@@ -137,76 +133,93 @@ ul {
   gap: 10px;
   width: 124px;
   height: 48px;
-  background: #FF6B00;
+  background: #ff6b00;
   color: #fff;
   border-style: none;
 }
 
 /* ...........work section.......... */
- .work-container{
+.work-container {
   width: 90%;
   margin: auto;
   background-color: #fff;
   padding-bottom: 120px;
 }
-.art-container{
-  background-image: url(/Images/Img\ Placeholder\ \(1\).png);
-  
+
+.art-container {
+  background-image: url("/Images/Img\ Placeholder\ \(1\).png");
 }
-.profesional-Art-heading{
+
+.profesional-Art-heading {
   font-family: 'Crete Round', sans-serif;
   font-weight: 400;
   font-size: 32px;
   width: 295px;
   height: 81px;
   line-height: 44px;
-  color: #FFFFFF;
-  padding-bottom: 12px;
+  color: #fff;
   padding: 80px 0 0 10px;
 }
-.profesional-Art-content{
+
+.profesional-Art-content {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400px;
   font-family: 'Inter', sans-serif;
   width: 295px;
   height: 87px;
-  color: #FFFFFF;
+  color: #fff;
   margin-bottom: 0;
   padding-left: 10px;
 }
-.profesional-Art-ul{
+
+.profesional-Art-ul {
   padding-left: 10px;
-   width: 70%;
-   margin-top: 0;
+  width: 70%;
+  margin-top: 0;
 }
-.profesional-Art-li{
+
+.profesional-Art-li {
   font-family: 'Inter', sans-serif;
   font-weight: 500px;
   font-size: 15px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #fff;
   padding: 10px 15px;
   background: rgba(255, 255, 255, 0.24);
 }
-.profesional-Art-btm{
+
+a {
+  display: block;
+  display: flex;
+  justify-content: center;
+}
+
+.profesional-Art-btm {
   width: 100%;
   height: 48px;
-  background: #FF6B00;
+  background: #ff6b00;
   font-size: 17px;
-  color: #FFFFFF;
+  color: #fff;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-top: 22px;  
+  margin-top: 22px;
   border-style: none;
-} 
-/* ..........footer section.......... */
-footer{
-  width: 100%;
-  background: #1C1A19;
 }
-h2{
-  color: #FF6B00;
+
+a.profesional-Art-btm {
+  display: flex;
+  align-items: center;
+}
+
+/* ..........footer section.......... */
+footer {
+  width: 100%;
+  background: #1c1a19;
+}
+
+h2 {
+  color: #ff6b00;
   font-weight: 400;
   font-size: 72px;
   line-height: 88px;
@@ -215,87 +228,79 @@ h2{
   padding: 120px 0 0 24px;
   font-family: 'Crete Round', sans-serif;
 }
-.footer-text{
+
+.footer-text {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #F4F5F7;
+  color: #f4f5f7;
   width: 327px;
   height: 148px;
   padding-left: 24px;
 }
-.footer-btm{
+
+.footer-btm {
   width: 161px;
-  align-items: center;
   padding: 12px;
   gap: 10px;
   margin-top: 0;
-  background: #FF6B00;
+  background: #ff6b00;
   color: #fff;
   margin-left: 24px;
-  border-style: none;
+  border: none;
 }
-.footer-img{
+
+.footer-img {
   padding-left: 212px;
-  
-} 
-.footer-hr{
-  border: 1px solid #FFFFFF;
+}
+
+.footer-hr {
+  border: 1px solid #fff;
   width: 90%;
   margin: auto;
 }
-.footer-list{
+
+.footer-list {
   text-align: center;
   padding-top: 100px;
 }
-.footer-heading{
-font-size: 22px;
-font-weight: 700px;
 
+.footer-heading {
+  font-size: 22px;
+  font-weight: 700px;
 }
-.footer-ul{
+
+.footer-ul {
   display: inline-block;
 }
-.footer-li{
-  font-family: 'Inter', sans-serif; 
+
+.footer-li {
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 15px;
   color: #fff;
   padding-bottom: 32px;
 }
-.work{
+
+.work {
   text-align: center;
 }
-.skill{
+
+.skill {
   text-align: center;
   padding-bottom: 50px;
-} 
-/* ..........Form section............. */
- .form{
-background: #E5E5E5;
-width: 100%;
 }
-.form-content{
-  padding-top: 120px;
-  font-family: 'Inter', sans-serif; 
-  font-weight: 700;
-  font-size: 32px;
-  color: #172B4D;
-  line-height: 44px;
-}
-.form-container{
-  width: 90%;
-  margin: auto;
-}
-
 
 /* ..........btm hover state............ */
-button:hover{
-  background-color: #FFF5E1;
-  color: #F55800;
+
+.button:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
 }
-button:disabled{
-  background-color: #F4F1F0;
-  color: #5B5957;
-} 
+
+.button:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+}
