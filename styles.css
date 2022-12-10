@@ -21,7 +21,6 @@ header {
 }
 
 /* ............headline section............. */
-
 .headline {
   background: #1c1a19;
   color: #fff;
@@ -37,7 +36,7 @@ h1 {
   letter-spacing: 0.37px;
   font-size: 56px;
   font-weight: 400;
-  width: 300px;
+  width: 328px;
   line-height: 64px;
 }
 
@@ -56,7 +55,7 @@ p {
   font-weight: 400;
   color: #fff;
   margin: 10px 0 10px 0;
-  width: 327px;
+  width: px;
 }
 
 ul {
@@ -69,14 +68,16 @@ ul {
 }
 
 /* .........About myself section........... */
-.About-myself{
+.About-myself {
   width: 90%;
   margin: auto;
 }
-.Recent-work{
-  margin-top: 80px;  
+
+.Recent-work {
+  margin-top: 80px;
 }
-.Recent{
+
+.Recent {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -86,24 +87,28 @@ ul {
   color: #1C1A19;
   height: 83px;
 }
-.line{
+
+.line {
   border: 1px solid #212121;
 }
-.about-img{
+
+.about-img {
   height: 237px;
   margin-top: 50px;
-  
-} 
-.Multi-Post-Heading{
+
+}
+
+.Multi-Post-Heading {
   font-family: 'Crete Round', sans-serif;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
   color: #091E42;
-  
+
 }
-.Multi-Post-stories{
-  font-family: 'Inter' , sans-serif;
+
+.Multi-Post-stories {
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -112,29 +117,33 @@ ul {
   margin-top: 12px;
   line-height: 24px;
 }
-.Multi-Post-ul{
+
+.Multi-Post-ul {
   width: 100%;
   margin-bottom: 15px;
-  
+
 }
-.Multi-Post-li{
-  border: 1px solid #8993A4; 
+
+.Multi-Post-li {
+  border: 1px solid #8993A4;
   padding: 9px 12px;
   margin-right: 10px;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
 }
-.Multi-Post-project{
-align-items: center;
-gap: 10px;
-width: 124px;
-height: 48px;
-background: #FF6B00;
-color: #fff;
-border-style: none;
+
+.Multi-Post-project {
+  align-items: center;
+  gap: 10px;
+  width: 124px;
+  height: 48px;
+  background: #FF6B00;
+  color: #fff;
+  border-style: none;
 }
+
 /* ...........work section.......... */
-.work-container{
+ .work-container{
   width: 90%;
   margin: auto;
   background-color: #fff;
@@ -190,9 +199,9 @@ border-style: none;
   letter-spacing: 0.03em;
   margin-top: 22px;  
   border-style: none;
-}
+} 
 /* ..........footer section.......... */
- footer{
+footer{
   width: 100%;
   background: #1C1A19;
 }
@@ -261,9 +270,9 @@ font-weight: 700px;
 .skill{
   text-align: center;
   padding-bottom: 50px;
-}
+} 
 /* ..........Form section............. */
-.form{
+ .form{
 background: #E5E5E5;
 width: 100%;
 }
@@ -279,55 +288,8 @@ width: 100%;
   width: 90%;
   margin: auto;
 }
-.sign-up{
-  padding-top: 73px;
-}
-::placeholder{
-  font-family: 'Inter', sans-serif; 
-  font-size: 15px;
-  line-height: 24px;
-  color: #979493;
-  width: 295px;
-  height: 18px;
-  display: block;
-  padding: 0 0 0 20px;
-}
-input{
-  padding-top: 10px;
-  border-style: none none groove none;
-  width: 100%;
-  font-size: 24px;
-}
-textarea{
-  width: 100%;
-  margin-top: 20px;
-  border-style: none;
-  margin-bottom: 24px;
-  }
-.sign-up-btm{
-  margin: 0 95px;
-  font-family: 'Inter', sans-serif; 
-  font-size: 17px;
-  font-weight: 700;
-  color: #FFFFFF;
-  background-color: #FF6B00;;
-  letter-spacing: 0.03em;
-  width: 50%;
-  padding: 10px;
-  border-style: none;
-  margin-bottom: 100px;
-}
-.footer-line{
-  border: 1px solid ;
-}
-.fontawsome-ul{
-  padding-left: 90PX;
-  
-}
-.fa-brands{
-  background: #505F79;
-  font-size: 17px;
-}
+
+
 /* ..........btm hover state............ */
 button:hover{
   background-color: #FFF5E1;
@@ -336,4 +298,4 @@ button:hover{
 button:disabled{
   background-color: #F4F1F0;
   color: #5B5957;
-}
+} 
