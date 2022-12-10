@@ -21,7 +21,6 @@ header {
 }
 
 /* ............headline section............. */
-
 .headline {
   background: #1c1a19;
   color: #fff;
@@ -37,7 +36,7 @@ h1 {
   letter-spacing: 0.37px;
   font-size: 56px;
   font-weight: 400;
-  width: 300px;
+  width: 328px;
   line-height: 64px;
 }
 
@@ -56,7 +55,7 @@ p {
   font-weight: 400;
   color: #fff;
   margin: 10px 0 10px 0;
-  width: 327px;
+  width: px;
 }
 
 ul {
@@ -66,4 +65,251 @@ ul {
   width: 180px;
   font-size: 20px;
   margin-top: 25px;
+}
+
+/* .........About myself section........... */
+.About-myself {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+
+.Recent-work {
+  margin-top: 80px;
+}
+
+.Recent {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #1c1a19;
+  height: 83px;
+}
+
+.line {
+  border: 1px solid #212121;
+}
+
+.about-img {
+  height: 237px;
+  margin-top: 50px;
+}
+
+.Multi-Post-Heading {
+  font-family: 'Crete Round', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091e42;
+}
+
+.Multi-Post-stories {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #091e42;
+  margin-top: 12px;
+  line-height: 24px;
+}
+
+.Multi-Post-ul {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.Multi-Post-li {
+  border: 1px solid #8993a4;
+  padding: 9px 12px;
+  margin-right: 10px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+.Multi-Post-project {
+  align-items: center;
+  gap: 10px;
+  width: 124px;
+  height: 48px;
+  background: #ff6b00;
+  color: #fff;
+  border-style: none;
+}
+
+/* ...........work section.......... */
+.work-container {
+  width: 90%;
+  margin: auto;
+  background-color: #fff;
+  padding-bottom: 120px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.art-container {
+  background-image: url("/Images/Img\ Placeholder\ \(1\).png");
+}
+
+.profesional-Art-heading {
+  font-family: 'Crete Round', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  width: 295px;
+  height: 81px;
+  line-height: 44px;
+  color: #fff;
+  padding: 80px 0 0 10px;
+}
+
+.profesional-Art-content {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400px;
+  font-family: 'Inter', sans-serif;
+  width: 295px;
+  height: 87px;
+  color: #fff;
+  margin-bottom: 0;
+  padding-left: 10px;
+}
+
+.profesional-Art-ul {
+  padding-left: 10px;
+  width: 70%;
+  margin-top: 0;
+}
+
+.profesional-Art-li {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500px;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  padding: 10px 15px;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+a {
+  display: block;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+}
+
+.profesional-Art-btm {
+  width: 100%;
+  height: 48px;
+  background: #ff6b00;
+  font-size: 17px;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 22px;
+  border-style: none;
+}
+
+a.profesional-Art-btm {
+  display: flex;
+  align-items: center;
+}
+
+/* ..........footer section.......... */
+.about {
+  width: 100%;
+  background: #1c1a19;
+}
+
+h2 {
+  color: #ff6b00;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  width: 327px;
+  height: 79px;
+  padding: 120px 0 0 24px;
+  font-family: 'Crete Round', sans-serif;
+}
+
+.footer-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+  width: 327px;
+  height: 148px;
+  padding-left: 24px;
+}
+
+.footer-btm {
+  width: 161px;
+  padding: 12px;
+  gap: 10px;
+  margin-top: 0;
+  background: #ff6b00;
+  color: #fff;
+  margin-left: 24px;
+  border: none;
+}
+
+.footer-img {
+  padding-left: 212px;
+}
+
+.footer-hr {
+  border: 1px solid #fff;
+  width: 90%;
+  margin: auto;
+}
+
+.footer-list {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.footer-heading {
+  font-size: 22px;
+  font-weight: 700px;
+}
+
+.footer-ul {
+  display: inline-block;
+}
+
+.footer-li {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+  padding-bottom: 32px;
+}
+
+.work {
+  text-align: center;
+}
+
+.skill {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+/* ..........btm hover state............ */
+
+.button:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
+  font-weight: 700;
+}
+
+.button:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
 }
