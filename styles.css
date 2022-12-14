@@ -313,3 +313,82 @@ h2 {
   background-color: #f4f1f0;
   color: #5b5957;
 }
+
+/* .......footer section........... */
+.footer-section {
+  text-align: center;
+}
+
+.footer-p {
+  margin: 120px 0 73px 0;
+  padding: 0 24px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+input {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  height: 20px;
+  width: 90%;
+  line-height: 24px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #726f6e;
+  padding: 0 0 12px 12px;
+  outline: none;
+}
+
+textarea {
+  width: 90%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #3c3a39;
+  background: #fbf8f7;
+  border: hidden;
+  padding: 12px;
+  outline: none;
+}
+
+.form-button {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  margin-left: 20px;
+  margin-top: 24px;
+  line-height: 24px;
+  font-size: 17px;
+}
+
+.footer-line {
+  margin-top: 124px;
+  margin-bottom: 25px;
+  border: 1px solid #505f79;
+  width: 99%;
+  background: #dfe1e6;
+}
+
+.footer-icon {
+  font-size: 15px;
+  margin-bottom: 23px;
+  color: #505f79;
+  margin-left: 20px;
+}
+
+.git {
+  margin-left: 120px;
+}
+
+.footerLine {
+  margin-bottom: 8px;
+  border: 1px solid #212121;
+  width: 130px;
+  background: #0d151e;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 125px;
+}
