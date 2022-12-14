@@ -313,77 +313,81 @@ h2 {
   background-color: #f4f1f0;
   color: #5b5957;
 }
+
 /* .......footer section........... */
-.footer-section{
-text-align: center;
-  
+.footer-section {
+  text-align: center;
 }
-.footer-p{
+
+.footer-p {
   margin: 120px 0 73px 0;
   padding: 0 24px;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
 }
-input{
+
+input {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 15px;
   height: 18px;
   width: 90%;
-  height: 18px;
   line-height: 24px;
   border-style: hidden hidden groove;
   padding-bottom: 14px;
   margin-bottom: 30px;
 }
-::placeholder{
+
+::placeholder {
   font-size: 20px;
   color: #979493;
-   padding-left: 15px;
-   
+  padding-left: 15px;
 }
-textarea{
+
+textarea {
   width: 90%;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 15px;
-  color: #3C3A39;
-  background: #FBF8F7;
+  color: #3c3a39;
+  background: #fbf8f7;
   border: hidden;
 }
 
-.form-button{
+.form-button {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   margin-left: 130px;
-  margin-top:24px ;
+  margin-top: 24px;
   line-height: 24px;
   font-size: 17px;
 }
-.footer-hr{
+
+.footer-line {
   margin-top: 124px;
   margin-bottom: 25px;
-  border: 1px solid #505F79;
+  border: 1px solid #505f79;
   width: 99%;
-  background: #DFE1E6;
+  background: #dfe1e6;
   height: 1px;
-  
 }
-.icon{
+
+.footer-icon {
   font-size: 40px;
   margin-bottom: 23px;
-  color:#505F79 ;
-  margin-left: 22px;
+  color: #505f79;
+  margin-left: 30px;
 }
-.footerLine{
+
+.footerLine {
   margin-bottom: 8px;
   border: 1px solid #212121;
   width: 220px;
   height: 5px;
-  background: #0D151E;
+  background: #0d151e;
   border-radius: 10px;
   text-align: center;
   margin-left: 70px;
