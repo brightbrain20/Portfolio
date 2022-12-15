@@ -19,6 +19,9 @@ header {
   font-weight: 700;
   font-size: 18px;
 }
+.deskstopNav{
+  display: none;
+}
 
 /* ............headline section............. */
 .headline {
@@ -391,4 +394,31 @@ textarea {
   border-radius: 10px;
   text-align: center;
   margin-left: 125px;
+}
+
+@media (min-width: 768px) {
+/* .............header section.......... */
+.dropdown {
+  display: none;
+}
+.deskstopNav {
+  display: block;
+
+}
+.deskstop-ul {
+  margin-right: 250px;
+  
+}
+.deskstop-li {
+ margin-right: 32px;
+ color: #fff;
+ font-size: 18px;
+ font-weight: 600;
+ line-height: 20px;
+ font-family: 'Inter', sans-serif;
+}
+.logo {
+  margin-top: 20px;
+  margin-left: 140px;
+}
 }
