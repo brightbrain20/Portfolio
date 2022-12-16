@@ -724,31 +724,37 @@ textarea {
   line-height: 52px;
   color: #262626;
   
-}
+ }
 
-.mobile-form {
+ .mobile-form {
   display: none;
-}
+ }
 
-.deskstop-form{
+ .deskstop-form{
   display: block;
   width: 70%;
   padding-right: 50px;
-}
+  }
 
-.input-form{
-  display: flex;
-  margin: 20px;
-}
-.first-name {
-  margin-right: 10px;
-}
+  .input-form{
+    display: flex;
+    margin: 20px;
+  }
+  .first-name {
+    margin-right: 10px;
+  }
 
-}
-
-.form-btn{
-  text-align: left;
   
-}
+
+  .form-btn{
+    text-align: left;
+    
+  }
+
+  .git{
+    margin-left: 600px;
+  }
+
+  
 
 }
