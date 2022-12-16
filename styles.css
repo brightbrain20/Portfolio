@@ -19,7 +19,8 @@ header {
   font-weight: 700;
   font-size: 18px;
 }
-.deskstopNav{
+
+.deskstopNav {
   display: none;
 }
 
@@ -70,6 +71,10 @@ ul {
   margin-top: 25px;
 }
 
+.headline-image {
+  display: none;
+}
+
 /* .........About myself section........... */
 .About-myself {
   display: flex;
@@ -100,6 +105,10 @@ ul {
 .about-img {
   height: 237px;
   margin-top: 50px;
+}
+
+.desktop {
+  display: none;
 }
 
 .Multi-Post-Heading {
@@ -145,17 +154,28 @@ ul {
 
 /* ...........work section.......... */
 .work-container {
-  width: 90%;
   margin: auto;
   background-color: #fff;
-  padding-bottom: 120px;
+  margin-bottom: 120px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
 }
 
 .art-container {
+  /* background-image: url("/Images/Img\ Placeholder\ \(1\).png");
+  background-repeat: no-repeat; */
+
+  /* width: 90%;
+  margin: auto; */
+}
+
+.heading {
   background-image: url("/Images/Img\ Placeholder\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90%;
+  margin: 20px auto;
 }
 
 .profesional-Art-heading {
@@ -163,7 +183,6 @@ ul {
   font-weight: 400;
   font-size: 32px;
   width: 295px;
-  height: 81px;
   line-height: 44px;
   color: #fff;
   padding: 80px 0 0 10px;
@@ -174,10 +193,9 @@ ul {
   line-height: 24px;
   font-weight: 400px;
   font-family: 'Inter', sans-serif;
-  width: 295px;
-  height: 87px;
   color: #fff;
-  margin-bottom: 0;
+  margin-bottom: 6px;
+  padding-right: 20px;
   padding-left: 10px;
 }
 
@@ -223,7 +241,7 @@ a.profesional-Art-btm {
   align-items: center;
 }
 
-/* ..........footer section.......... */
+/* ..........About section.......... */
 .about {
   width: 100%;
   background: #1c1a19;
@@ -264,6 +282,10 @@ h2 {
 
 .footer-img {
   padding-left: 212px;
+}
+
+.about-me-deskstop {
+  display: none;
 }
 
 .footer-hr {
@@ -310,6 +332,7 @@ h2 {
   color: #f55800;
   border: 1px solid #f55800;
   font-weight: 700;
+  position: relative;
 }
 
 .button:disabled {
@@ -330,6 +353,9 @@ h2 {
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
+}
+.deskstop-form {
+  display: none;
 }
 
 input {
@@ -397,28 +423,328 @@ textarea {
 }
 
 @media (min-width: 768px) {
-/* .............header section.......... */
-.dropdown {
-  display: none;
-}
-.deskstopNav {
-  display: block;
+  /* .............header section.......... */
+  .dropdown {
+    display: none;
+  }
 
-}
-.deskstop-ul {
-  margin-right: 250px;
+  .deskstopNav {
+    display: block;
+  }
+
+  .deskstop-ul {
+    margin-right: 200px;
+  }
+
+  .deskstop-li {
+    margin-right: 32px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .logo {
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+
+  /* ..............headline section........... */
+  .headline {
+    background-image: none;
+    padding: 0;
+  }
+
+  .flex2 {
+    background-image: url("./Images/Img\ Placeholder\ \(3\).png");
+  }
+
+  .flex3 {
+    background-image: url("./Images/Img\ Placeholder\ \(5\).png");
+  }
+
+  .headline-image {
+    display: block;
+    margin-left: 47px;
+    
+    margin-right: 300px;
+    
+  }
+
+  .headline-img {
+    /* width: 100%; */
+    height: 800px;
+    
+  }
+
+  .headline-container {
+    display: flex;
+  }
+
+  .headline-text {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 200px;
+  
+  }
+
+  .headline-p {
+    margin-left: 0;
+    
+  }
+
+  .headline-icon {
+    flex-direction: column;
+    margin-left: 70px;
+    margin-top: 75px;
+    width: 60px;
+  }
+
+  .headlineIcon {
+    padding-bottom: 16px;
+  }
+
+  h1 {
+    width: 400px;
+    height: 160px;
+    font-weight: 400px;
+    font-size: 72px;
+    line-height: 81.5px;
+  }
+
+  span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .text {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    width: 566px;
+    height: 123px;
+  }
+
+  /* ........About myself section.......... */
+  .Recent-work {
+    display: flex;
+  }
+
+  .hr {
+    width: 700px;
+    /* margin-left: 30px; */
+    margin-top: 30px;
+  }
+
+  .Recent {
+    color: #091e42;
+    line-height: 52px;
+    margin-right: 50px;
+    height: 52px;
+    width: 400px;
+  }
+
+  /* ........Multi-Post-container....... */
+  .Multi-Post-container {
+    display: flex;
+
+    /* margin-bottom: 120px; */
+  }
+
+  .about-img {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+    
+  }
+
+  .img-about {
+    margin-top: 90px;
+    width: 600px;
+    height: 448px;
+    /* margin-left: 50px; */
+  }
+
+  .Multi {
+    margin-top: 90px;
+    margin-left: 24px;
+    width: 199%;
+  }
+
+  .Multi-Post-Heading {
+    font-size: 30px;
+    line-height: 52px;
+  }
+
+  .Multi-Post-stories {
+    line-height: 28px;
+    font-size: 20px;
+
+    /* height: 140px; */
+/* 
+    width: 350px; */
+    font-size: 20px;
+  }
+
+  .Multi-Post-ul {
+    width: 30%;
+  }
+
+  /* .........work-container............. */
+  .art-container {
+    width: 90%;
+    margin: 0 auto auto;
+    gap: 20px;
+    display: flex;
+  }
+
+  .heading {
+    position: relative;
+    cursor: pointer;
+    padding-top: 70px;
+  }
+
+  .heading-body {
+    position: relative;
+    bottom: 14px;
+  }
+
+  .heading-btn {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: none;
+  }
+
+  .heading:hover .heading-body {
+    display: none;
+  }
+
+  .heading:hover {
+    background-image: url("./Images/Img\ Placeholder\ \(6\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid gray;
+  }
+
+  .heading:hover .heading-btn {
+    display: block;
+  }
+
+  .work-container {
+    margin: auto;
+    background-color: #fff;
+    margin-bottom:40px;
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: none;
+    grid-template-rows: none;
+  }
+
+  /* ............about section............ */
+  .about-me-deskstop {
+    display: block;
+    margin-right: 70px;
+  }
+
+  .footer-img {
+    display: none;
+  }
+
+  .about-me-footer {
+    display: flex;
+  }
+
+  .about-me-container {
+    padding-left: 75px;
+  }
+
+  h2 {
+    color: #ff6b00;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 81.5px;
+    width: 566px;
+    height: 78px;
+    
+    font-family: 'Crete Round', sans-serif;
+  }
+
+  .footer-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #f4f5f7;
+    width: 500px;
+    height: 148px;
+    /* padding-right: 24px; */
+  }
+
+  .about-me-deskstop-img{
+    width: 410px;
+    height: 300px;
+    /* padding-left: 80px; */
+    padding-top: 100px;
+    padding-bottom: 70px;
+  }
+
+  .my-skills {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+  }
+
+  .footer-list {
+    padding-top: 0;
+  }
+  
+ /* ...........footer-section............. */
+ .footer-section{
+  display: flex;
+  padding-top: 130px;
+ }
+
+ .footer-p {
+  margin: 0 0 0 50px;
+  width: 410px;
+  /* height: 256px; */
+  padding: 0 24px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #262626;
   
 }
-.deskstop-li {
- margin-right: 32px;
- color: #fff;
- font-size: 18px;
- font-weight: 600;
- line-height: 20px;
- font-family: 'Inter', sans-serif;
+
+.mobile-form {
+  display: none;
 }
-.logo {
-  margin-top: 20px;
-  margin-left: 140px;
+
+.deskstop-form{
+  display: block;
 }
+
+.input-form{
+  display: flex;
+  margin: 20px;
+}
+.first-name {
+  margin-right: 10px;
+}
+
+}
+
+.form-btn{
+  text-align: left;
+  
+}
+
 }
