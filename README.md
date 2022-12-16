@@ -57,7 +57,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio setup] <a name="about-project">Portfolio setup and mobile first</a>
+# 📖 [Portfolio setup] <a name="about-project">Portfolio setup  of mobile and deskstop version</a>
 
 > Describe your project in 1 or 2 sentences.
 

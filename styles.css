@@ -162,14 +162,6 @@ ul {
   grid-template-rows: 1fr;
 }
 
-.art-container {
-  /* background-image: url("/Images/Img\ Placeholder\ \(1\).png");
-  background-repeat: no-repeat; */
-
-  /* width: 90%;
-  margin: auto; */
-}
-
 .heading {
   background-image: url("/Images/Img\ Placeholder\ \(1\).png");
   background-repeat: no-repeat;
@@ -472,7 +464,6 @@ textarea {
   }
 
   .headline-img {
-    /* width: 100%; */
     height: 800px;
   }
 
@@ -532,8 +523,6 @@ textarea {
 
   .hr {
     width: 700px;
-
-    /* margin-left: 30px; */
     margin-top: 30px;
   }
 
@@ -548,8 +537,6 @@ textarea {
   /* ........Multi-Post-container....... */
   .Multi-Post-container {
     display: flex;
-
-    /* margin-bottom: 120px; */
   }
 
   .about-img {
@@ -564,8 +551,6 @@ textarea {
     margin-top: 90px;
     width: 600px;
     height: 448px;
-
-    /* margin-left: 50px; */
   }
 
   .Multi {
@@ -581,12 +566,6 @@ textarea {
 
   .Multi-Post-stories {
     line-height: 28px;
-    font-size: 20px;
-
-    /* height: 140px; */
-
-    /*
-    width: 350px; */
     font-size: 20px;
   }
 
@@ -742,8 +721,6 @@ textarea {
     margin-right: 10px;
   }
 
-
-
   .form-btn {
     text-align: left;
   }
@@ -751,7 +728,7 @@ textarea {
   .git {
     margin-left: 600px;
   }
-  
+
   .footerLine {
     display: none;
   }
