@@ -732,6 +732,8 @@ textarea {
 
 .deskstop-form{
   display: block;
+  width: 70%;
+  padding-right: 50px;
 }
 
 .input-form{
@@ -745,7 +747,7 @@ textarea {
 }
 
 .form-btn{
-  /* text-align: left; */
+  text-align: left;
   
 }
 
