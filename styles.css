@@ -469,24 +469,20 @@ textarea {
 
   .headline-container {
     display: flex;
-    
-}
+  }
 
-.headline:hover .headline-container{
-  animation-name: bounce;
+  .headline:hover .headline-container {
+    animation-name: bounce;
     animation-duration: 4s;
-    
-}
+  }
 
-@keyframes bounce {
-  0%   {background-color:red; left:0px; top:0px;}
-  25%  {background-color:yellow; left:20px; top:0px;}
-  50%  {background-color:blue; left:20px; top:20px;}
-  75%  {background-color:green; left:0px; top:20px;}
-  100% {background-color:red; left:0px; top:0px;}
-}
-
-  
+  @keyframes bounce {
+    0% { background-color: red; }
+    25% { background-color: yellow; }
+    50% { background-color: blue; }
+    75% { background-color: green; }
+    100% { background-color: gray; }
+  }
 
   .headline-text {
     display: flex;
@@ -678,8 +674,6 @@ textarea {
     color: #f4f5f7;
     width: 500px;
     height: 148px;
-
-    
   }
 
   .about-me-deskstop-img {
@@ -749,6 +743,4 @@ textarea {
   .footerLine {
     display: none;
   }
-  
-
 }
