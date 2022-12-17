@@ -471,6 +471,19 @@ textarea {
     display: flex;
   }
 
+  .headline:hover .headline-container {
+    animation-name: bounce;
+    animation-duration: 4s;
+  }
+
+  @keyframes bounce {
+    0% { background-color: red; }
+    25% { background-color: yellow; }
+    50% { background-color: blue; }
+    75% { background-color: green; }
+    100% { background-color: gray; }
+  }
+
   .headline-text {
     display: flex;
     flex-direction: row-reverse;
@@ -661,8 +674,6 @@ textarea {
     color: #f4f5f7;
     width: 500px;
     height: 148px;
-
-    /* padding-right: 24px; */
   }
 
   .about-me-deskstop-img {
