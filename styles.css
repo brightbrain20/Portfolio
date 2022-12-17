@@ -469,7 +469,24 @@ textarea {
 
   .headline-container {
     display: flex;
-  }
+    
+}
+
+.headline:hover .headline-container{
+  animation-name: bounce;
+    animation-duration: 4s;
+    
+}
+
+@keyframes bounce {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:20px; top:0px;}
+  50%  {background-color:blue; left:20px; top:20px;}
+  75%  {background-color:green; left:0px; top:20px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+  
 
   .headline-text {
     display: flex;
@@ -662,7 +679,7 @@ textarea {
     width: 500px;
     height: 148px;
 
-    /* padding-right: 24px; */
+    
   }
 
   .about-me-deskstop-img {
@@ -732,4 +749,6 @@ textarea {
   .footerLine {
     display: none;
   }
+  
+
 }
