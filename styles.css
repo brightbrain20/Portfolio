@@ -105,6 +105,7 @@ ul {
 .about-img {
   height: 237px;
   margin-top: 50px;
+  display: block;
 }
 
 .desktop {
@@ -444,10 +445,10 @@ textarea {
   }
 
   /* ..............headline section........... */
-  /* .headline {
+  .headline {
     background-image: none;
     padding: 0;
-  } */
+  }
 
   .flex2 {
     background-image: url("./Images/Img\ Placeholder\ \(3\).png");
