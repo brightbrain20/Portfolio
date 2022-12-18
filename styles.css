@@ -29,7 +29,7 @@ header {
   background: #1c1a19;
   color: #fff;
   padding: 130px 25px 145px;
-  background-image: url(./Images/Group.png);
+  background-image: url("./Images/Group.png");
   background-position: bottom right;
   background-repeat: no-repeat;
 }
@@ -163,7 +163,7 @@ ul {
 }
 
 .heading {
-  background-image: url("/Images/Img\ Placeholder\ \(1\).png");
+  background-image: url("./Images/Img\ Placeholder\ \(1\).png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 90%;
