@@ -110,7 +110,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link]( https://brightbrain20.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,15 +172,15 @@ Example command:
 ```
 --->
 
-<### Run tests
+<!-- <### Run tests
 
 To run tests, run the following command: -->
 
 
 Example command:
+ -->
 
-
-  https://brightbrain20.github.io/Portfolio/
+  
 
 
 
