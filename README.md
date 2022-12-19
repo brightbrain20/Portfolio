@@ -172,17 +172,17 @@ Example command:
 ```
 --->
 
-<!-- ### Run tests
+<### Run tests
 
 To run tests, run the following command: -->
 
-<!--
+
 Example command:
 
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+
+  https://brightbrain20.github.io/Portfolio/
+
+
 
 <!-- ### Deployment
 
