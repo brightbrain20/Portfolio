@@ -22,14 +22,14 @@ REQUIRED SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
-<div align="center">
+<!-- <div align="center">
 
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
 
-</div>
+</div> -->
 
 <!-- TABLE OF CONTENTS -->
 
@@ -108,9 +108,9 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+
+- [Live Demo Link]( https://brightbrain20.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,17 +172,17 @@ Example command:
 ```
 --->
 
-<!-- ### Run tests
+<!-- <### Run tests
 
 To run tests, run the following command: -->
 
-<!--
-Example command:
 
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+Example command:
+ -->
+
+  
+
+
 
 <!-- ### Deployment
 
