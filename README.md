@@ -233,6 +233,7 @@ Example:
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing">Alice Gathoni Mirigo</a>
+<a name="contributing">Larissa Andrainasoa</a>
 
 Contributions, issues, and feature requests are welcome!
 
