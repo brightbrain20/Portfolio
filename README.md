@@ -66,7 +66,14 @@ After you're finished please remove all the comments and instructions!
 ## 🛠 Built With
  <a name="built-with">Html</a>
  <a name="built-with">CSS</a>
+<a name="built-with">JavaScript</a>
 
+- Terminologies
+  - [ ] Github
+  - [ ] Linters
+  - [ ] WebHint
+  - [ ] Stylelint
+  - [ ] ESlint
 <!-- ### Tech Stack <a name="tech-stack"></a>
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
@@ -93,29 +100,16 @@ After you're finished please remove all the comments and instructions!
 </details>
 
 <!-- Features -->
-<!-- 
-### Key Features <a name="key-features"></a>
+
+<!-- ### Key Features <a name="key-features"></a> -->
 
 ### Description 
 
  > This project is an amaizing  project as it contains list of awesom applications I have built in receent times.
    Go ahead and check it out and don't hesitate to reach out to me if you would love somthing as cool as that on your Website or would want to build a website .
 
-## Built With
 
-- Languages
-  - [ ] HTML
-  - [ ] CSS
-  - [ ] JavaScript
-
-- Terminologies
-  - [ ] Github
-  - [ ] Linters
-  - [ ] WebHint
-  - [ ] Stylelint
-  - [ ] ESlint
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 <!-- LIVE DEMO -->
 
@@ -140,6 +134,7 @@ Alternatively, you can just download the complete zip file and extract the folde
 
 Step 2:
 Copy All Project files and run using VSCODE. HTML can be viewed in browser.
+
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
