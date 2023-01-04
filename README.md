@@ -96,11 +96,24 @@ After you're finished please remove all the comments and instructions!
 <!-- 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+### Description 
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+ > This project is an amaizing  project as it contains list of awesom applications I have built in receent times.
+   Go ahead and check it out and don't hesitate to reach out to me if you would love somthing as cool as that on your Website or would want to build a website .
+
+## Built With
+
+- Languages
+  - [ ] HTML
+  - [ ] CSS
+  - [ ] JavaScript
+
+- Terminologies
+  - [ ] Github
+  - [ ] Linters
+  - [ ] WebHint
+  - [ ] Stylelint
+  - [ ] ESlint
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
@@ -115,89 +128,18 @@ After you're finished please remove all the comments and instructions!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-<!-- 
-## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
-In order to run this project you need: -->
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
-<!-- ### Setup
-
-Clone this repository to your desired folder: -->
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
-<!-- ### Install
-
-Install this project with: -->
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-<!-- 
-### Usage
-
-To run the project, execute the following command: -->
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-<!-- <### Run tests
-
-To run tests, run the following command: -->
-
-
-Example command:
- -->
-
-  
-
-
-
-<!-- ### Deployment
-
-You can deploy this project using: -->
-
-<!--
-Example:
-
-```sh
+step 1:
+Clone this repo locally using git in the command line and the following command
 
 ```
- -->
+git clone https://github.com/brightbrain20/Portfolio.git
+```
 
-<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> --> -->
+Alternatively, you can just download the complete zip file and extract the folder in your directory
 
+Step 2:
+Copy All Project files and run using VSCODE. HTML can be viewed in browser.
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
@@ -219,21 +161,23 @@ Example:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
-<!-- 
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[populate cards with project]**
+- [ ] **[Add aminations to card section]**
+- [ ] **[Add DOM on deskstop]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> --> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing">Alice Gathoni Mirigo</a>
 <a name="contributing">Larissa Andrainasoa</a>
+<a name="contributing">Umoru Abdul Azeez
+</a>
 
 Contributions, issues, and feature requests are welcome!
 
@@ -242,12 +186,7 @@ Feel free to check the [issues page](../../issues/).
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
-
-<!-- ## ⭐️ Show your support <a name="support"></a>
-
-> Write a message to encourage readers to support your project
-
-If you like this project...
+Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -279,9 +218,9 @@ I would like to thank...
 
 <!-- LICENSE -->
 
-<!-- ## 📝 License <a name="license"></a>
+ ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed. -->
+This project is [MIT](./https://github.com/brightbrain20/Portfolio/blob/master/MIT.md) licensed. 
 
 <!-- _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
 
