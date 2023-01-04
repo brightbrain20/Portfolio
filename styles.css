@@ -4,6 +4,10 @@
   font-size: 16px;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /* ......... the header section.......... */
 header {
   background: #3c3a39;
@@ -78,6 +82,59 @@ ul {
 
 .headlineIcon {
   color: #fff;
+}
+
+#mobile-navigation.active {
+  left: 0;
+}
+
+#mobile-navigation {
+  position: fixed;
+  background-color: #3c3a39;
+  left: 100%;
+  top: -25px;
+  width: 100%;
+  padding: 80px 20px 0;
+  height: 100%;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  gap: 17px;
+  transition: all 0.3s linear;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+.mobile-nav {
+  width: 100%;
+  display: block;
+}
+
+.mobile-item {
+  display: block;
+  width: 85%;
+  color: #fff5e1;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 44px;
+  border-bottom: 1px solid  #6f6c6b;
+  margin-bottom: 40px;
+  padding-left: 10px;
+}
+
+.remove-btn {
+  position: fixed;
+  right: 25px;
+  top: 20px;
+  font-size: 30px;
+  color: #e3eaf1;
+}
+
+.hidden {
+  display: none;
 }
 
 /* .........About myself section........... */

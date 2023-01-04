@@ -16,17 +16,27 @@
 </head>
 
 <body>
-  <header id="homepage">
-    <div> <a href="#homepage" class="logo">Bright Ezeamaka</a> </div>
+  <header>
+    <div class="logo">Bright Ezeamaka</div>
     <div class="dropdown">
-      <img src="./Images/Icon - Menu.png" alt="">
+      <img class="dropdown-img" src="./Images/Icon - Menu.png" alt="">
+    </div>
+    <div id="mobile-navigation">
+      <div class="remove-btn hidden">X</div>
+      <ul class="mobile-nav">
+        <li> <a href="#about" class="mobile-item">Portfolio</a> </li>
+       
+        <li> <a href="#about-me" class="mobile-item">About</a></li>
+        <li> <a href="#contact-me" class="mobile-item">Contact </a></li>
+         
+      </ul>
     </div>
     <div class="deskstopNav">
       <ul class="deskstop-ul">
-        <li> <a href="#portfolio" class="deskstop-li" aria-label="Read more about my Portfolio">Portoflio</a> </li>
-        <li> <a href="#About-me" class="deskstop-li" aria-label="Read more about me">About</a></li>
-        <li> <a href="#form-section" class="deskstop-li" aria-label="Read more about my contact">Contact </a></li>
-        <li class="deskstop-li"> <a href="#" aria-label="Read more"></a><img src="./Images/Icon - Mail.png" alt=""></li>
+        <li> <a href="#about" class="deskstop-li">Portfolio</a> </li>
+        <li> <a href="#about-me" class="deskstop-li">About</a></li>
+        <li> <a href="#contact-me" class="deskstop-li">Contact </a></li>
+        <li class="deskstop-li"> <a href="#"></a><img src="./Images/Icon - Mail.png" alt=""></li>
       </ul>
     </div>
   </header>
@@ -46,50 +56,30 @@
         </div>
         <div>
           <ul class="headline-icon">
-            <li>
-              <a href="https://github.com/brightbrain20" class="headlineIcon" aria-label="Visit my github page">
-                <i class="fa-brands headlineIcon fa-github"></i>
-               </a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/bright-ezeamaka-752837237/" class="headlineIcon" aria-label="Visit my linkedin page">
-              <i class="fa-brands headlineIcon fa-linkedin-in"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="headlineIcon" aria-label="visit my angellist page ">
-              <i class="fa-brands headlineIcon fa-angellist"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/BrightEzeamaka" class="headlineIcon" aria-label="Visit my twitter page">
-              <i class="fa-brands headlineIcon fa-twitter"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#1" class="headlineIcon" aria-label="Visit my # page">
-              <i class="fa-solid headlineIcon fa-m"></i>
-              </a>
-            </li>
+            <li><i class="fa-brands headlineIcon fa-github"></i></li>
+            <li><i class="fa-brands headlineIcon fa-linkedin-in"></i></li>
+            <li><i class="fa-brands headlineIcon fa-angellist"></i></li>
+            <li><i class="fa-brands headlineIcon fa-twitter"></i></li>
+            <li><i class="fa-solid headlineIcon fa-m"></i></li>
           </ul>
         </div>
       </div>
        <div class="headline-image">
-        <img src="./Images/Illustration-header@2x.png"  class="headline-img" alt="headline-image">
+        <img src="./Images/Illustration-header@2x.png" class="headline-img" alt="">
       </div>
     </div>
   </section>
-  <section class="About-myself" id="portfolio">
+  <section  id="about" class="About-myself">
     <div class="Recent-work">
       <div class="Recent">My Recent Works</div>
       <div class="hr"> <hr></div>
     </div>
     <div class="Multi-Post-container">
       <div class="about-img">
-        <img src="./Images/Img Placeholder.png"  alt="project1-section">
+        <img src="./Images/Img Placeholder.png"  alt="">
       </div>
       <div class="desktop">
-        <img src="./Images/Img Placeholder (2).png" class="img-about"  alt="project1-section">
+        <img src="./Images/Img Placeholder (2).png" class="img-about"  alt="">
       </div>
       <div class="Multi">
         <p class="Multi-Post-Heading">
@@ -157,7 +147,7 @@
         </ul>
        </div>
         <div class="heading-btn">
-          <a href="#2" class="profesional-Art-btm  button" aria-label="click to see project">See Project</a>
+          <a href="#2" class="profesional-Art-btm  button">See Project</a>
         </div>
       </div>
       <div class="heading flex3">
@@ -218,7 +208,7 @@
         </ul>
        </div>
         <div class="heading-btn">
-          <a href="#2" class="profesional-Art-btm  button" aria-label="click to see project">See Project</a>
+          <a href="#2" class="profesional-Art-btm  button">See Project</a>
         </div>
       </div>
       <div class="heading flex3">
@@ -242,10 +232,10 @@
       </div>
     </div>
   </section>
-  <section class="about" id="About-me">
+  <section class="about">
     <div class="about-me-footer">
       <div class="about-me-container">
-        <h2>About me</h2>
+        <h2 id="about-me">About me</h2>
         <p class="footer-text">
           Hello I’m a software developer! I can help you build a product ,
           feature or website Look through some of my work and experience!
@@ -254,10 +244,10 @@
         <a href="#8" class="footer-btm button">Get My Resume</a>
       </div>
       <div class="footer-img">
-        <img src="/Images/illustration-about-me-mobile.png" alt="About me image">
+        <img src="/Images/illustration-about-me-mobile.png" alt="">
       </div>
       <div class="about-me-deskstop">
-        <img class="about-me-deskstop-img" src="./Images/illustration-about me@2x.png" alt="About me image">
+        <img class="about-me-deskstop-img" src="./Images/illustration-about me@2x.png" alt="">
       </div>
     </div>
     <div class="footer-hr"> </div>
@@ -293,7 +283,7 @@
       </div>
     </div>
   </section>
-  <footer>
+  <footer id="contact-me">
     <div class="footer-section">
     <div>
       <p class="footer-p">
@@ -303,17 +293,17 @@
     </div>
    <div class="mobile-form">
     <form action="https://formspree.io/f/mwkzggnv" method="post">
-      <input type="text" placeholder="Full name" maxlength="30" id="fullname" name="text" required>
-      <input type="email" id="email-address" name="email" placeholder="Email address" maxlength="30" required>
-      <textarea name="" id="text-area" cols="10" rows="5" required maxlength="500" name="textarea" id="textarea"  placeholder="Enter text here"></textarea>
+      <input type="text" placeholder="Full name" maxlength="30" id="text" name="text" required>
+      <input type="email" id="email" name="email" placeholder="Email address" maxlength="30" required>
+      <textarea name="" id="" cols="10" rows="5" required maxlength="500" name="textarea" id="textarea"  placeholder="Enter text here"></textarea>
       <button class="Multi-Post-project button form-button" type="submit">Get in touch</button>
     </form>
    </div>
-    <div class="deskstop-form" id="form-section">
+    <div class="deskstop-form">
       <form action="https://formspree.io/f/mwkzggnv" method="post">
         <div class="input-form">
           <input type="text" placeholder="First Name" class="first-name" maxlength="30" id="text" name="text" required>
-        <input type="text" placeholder="Last Name" maxlength="30" id="lastname-desktop" name="text" required>
+        <input type="text" placeholder="Last Name" maxlength="30" id="text" name="text" required>
         </div>
         <input type="email" id="email" name="email" placeholder="Email address" maxlength="30" required>
         <textarea name="" id="" cols="10" rows="5" required maxlength="500" name="textarea" id="textarea"  placeholder="Enter text here"></textarea>
@@ -327,27 +317,27 @@
   <div class="footer-icon">
     <ul >
       <li class="icon">
-       <a href="https://github.com/brightbrain20" aria-label="Visit my github page">
+       <a href="https://github.com/brightbrain20">
          <i class="fa-brands git  footer-icon fa-github"></i>
        </a>
      </li>
       <li class="icon">
-       <a href="https://www.linkedin.com/in/bright-ezeamaka-752837237/" aria-label="Visit my linkedin page">
+       <a href="https://www.linkedin.com/in/bright-ezeamaka-752837237/">
          <i class="fa-brands footer-icon fa-linkedin-in"></i>
        </a>
      </li>
       <li class="icon">
-       <a href="#" aria-label="visit my angellist page ">
+       <a href="#">
          <i class="fa-brands footer-icon fa-angellist"></i>
        </a>
      </li>
       <li class="icon">
-       <a href="https://twitter.com/BrightEzeamaka" aria-label="Visit my twitter page">
+       <a href="https://twitter.com/BrightEzeamaka">
          <i class="fa-brands footer-icon fa-twitter"></i>
        </a>
      </li>
       <li class="icon">
-       <a href="#1" aria-label="Visit my # page">
+       <a href="#1">
          <i class="fa-solid footer-icon fa-m"></i>
        </a>
      </li>
@@ -355,5 +345,6 @@
   </div>
   <div class="footerLine"></div>
   </footer>
+  <script src="./index.js"></script>
 </body>
 </html>
