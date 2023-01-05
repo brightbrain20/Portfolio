@@ -394,6 +394,93 @@ h2 {
   background-color: #f4f1f0;
   color: #5b5957;
 }
+/* .....popup section...... */
+.popup {
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.93);
+  height: 100%;
+  
+}
+
+.popup2 {
+  width: 90%;
+  margin: auto;
+  margin-top:40px ;
+  background-color: #fff;
+  height: 85%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-bottom: 20px;
+
+}
+
+.popup2 .multi-container{
+  display: flex;
+padding-top: 16px;
+padding-right: 10px;
+}
+.multi-container h2 {
+  font-family: 'Roboto' sans-serif;
+  color: #172B4D;
+  font-size: 30px;
+  margin-top: 0;
+  padding-top: 0;
+  font-weight: 700;
+  line-height: 44px;
+  
+}
+
+.exit {
+  color: #67798E;
+  font-size: 30px;
+  
+}
+.popup2 ul {
+  margin-top: 0;
+  width: 80%;
+  flex-wrap: wrap;
+  padding:0 20px 20px 20px;
+}
+.popup2 li {
+  border: 2px solid #DFE1E6;
+  font-family: 'Poppins' sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  padding: 10px ;
+  color: #3C3A39;
+}
+
+.popup2 img {
+  width: 300px;
+  padding-left: 20px;
+}
+
+.popup2 p {
+  color: #344563;
+  font-family: 'Inter' sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 20px;
+  text-align: justify;
+  
+}
+.popup2 p ul {
+  margin-top:0;
+  padding-top: 0;
+}
+.popup2 .link-img {
+  width: 100px;
+  border: none;
+  
+}
+
+.popup2 .link-img:hover {
+  cursor: pointer;
+  
+}
 
 /* .......footer section........... */
 .footer-section {
