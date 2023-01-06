@@ -62,14 +62,14 @@ const displayPopup = (id) => {
   });
 };
 
-// const cardBtn = document.querySelectorAll('.cards');
-// cardBtn.forEach((btn) => {
-//   btn.addEventListener('click', () => {
-//     const btnId = btn.getAttribute('id');
-//     displayPopup(btnId);
-//     const closePopupBtn = document.querySelector('.exit');
-//     closePopupBtn.addEventListener('click', () => {
-//       popupContainer.innerHTML = '';
-//     });
-//   });
-// });
+const cardBtn = document.querySelectorAll('.cards');
+cardBtn.forEach((btn) => {
+  btn.addEventListener('click', () => {
+    const btnId = btn.getAttribute('id');
+    displayPopup(btnId);
+    const closePopupBtn = document.querySelector('.exit');
+    closePopupBtn.addEventListener('click', () => {
+      popupContainer.innerHTML = '';
+    });
+  });
+});

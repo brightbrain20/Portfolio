@@ -395,65 +395,66 @@ h2 {
   background-color: #f4f1f0;
   color: #5b5957;
 }
+
 /* .....popup section...... */
 .popup {
   position: fixed;
   top: 0;
   background-color: rgba(0, 0, 0, 0.93);
   height: 100%;
-  
 }
 
 .popup2 {
   width: 90%;
   margin: auto;
-  margin-top:25px ;
+  margin-top: 25px;
   background-color: #fff;
   height: 90%;
   overflow: hidden;
   padding-bottom: 20px;
-
 }
 
-.popup2 .multi-container{
+.popup2 .multi-container {
   display: flex;
-padding-top: 16px;
-padding-right: 10px;
+  padding-top: 16px;
+  padding-right: 10px;
 }
+
 .multi-container h2 {
-  font-family: 'Roboto' sans-serif;
-  color: #172B4D;
+  font-family: 'Roboto', sans-serif;
+  color: #172b4d;
   font-size: 30px;
   margin-top: 0;
   padding-top: 0;
   font-weight: 700;
   line-height: 44px;
-  
 }
 
 .exit {
-  color: #67798E;
+  color: #67798e;
   font-size: 30px;
-  font-family: sans-serif;
+  font-family: sans-serif, serif;
 }
 
 .exit:hover {
   color: red;
   cursor: pointer;
 }
+
 .popup2 ul {
   margin-top: 0;
   width: 80%;
   flex-wrap: wrap;
-  padding:0 20px 20px 20px;
+  padding: 0 20px 20px 20px;
 }
+
 .popup2 li {
-  border: 2px solid #DFE1E6;
-  font-family: 'Poppins' sans-serif;
+  border: 2px solid #dfe1e6;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  padding: 10px ;
-  color: #3C3A39;
+  padding: 10px;
+  color: #3c3a39;
 }
 
 .popup2 img {
@@ -463,28 +464,27 @@ padding-right: 10px;
 
 .popup2 p {
   color: #344563;
-  font-family: 'Inter' sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   padding: 0 20px;
   text-align: justify;
-  
 }
+
 .popup2 p ul {
-  margin-top:0;
+  margin-top: 0;
   padding-top: 0;
 }
+
 .popup2 .link-img {
   width: 100px;
   border: none;
-  
 }
 
 .popup2 .link-img:hover {
   cursor: pointer;
-  
 }
 
 /* .......footer section........... */
@@ -837,64 +837,64 @@ textarea {
     padding-top: 0;
   }
 
-  /* ......desktop popup..... */ 
+  /* ......desktop popup..... */
   .popup2 {
     width: 80%;
     height: 83%;
-    
   }
 
   .popup2 .multi-container {
-  justify-content: space-between;
-  padding-bottom: 10px;
+    justify-content: space-between;
+    padding-bottom: 10px;
   }
 
   .multi-container h2 {
-    height: 0px;
+    height: 0;
   }
-  
-  .language{
+
+  .language {
     width: 100%;
     justify-content: flex-start;
     gap: 10px;
   }
+
   .popup2 ul {
     margin-top: 0;
     width: 30%;
-   
     flex-wrap: nowrap;
-    padding:0 20px 20px 20px;
-    
+    padding: 0 20px 20px 20px;
   }
-  
+
   .content-container {
-   display: flex;
+    display: flex;
   }
+
   .popup2 img {
     width: 500px;
     height: 369px;
-
   }
-  
+
   .popup2 p {
     line-height: 1.5;
     font-size: 16px;
   }
+
   .popup2 p ul {
-    margin-top:0;
+    margin-top: 0;
     padding-top: 0;
   }
+
   .popup2 .link-img {
     width: 80px;
     border: none;
   }
-  
+
   .popup2 .link-img img {
     height: 40px;
     position: absolute;
     bottom: 80px;
   }
-  
+
   .popup2 .link-img .btn2 {
     margin-left: 120px;
   }
