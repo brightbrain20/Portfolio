@@ -1,4 +1,4 @@
-
+/* eslint-disable */
 const Data = [
   {
     id: 'one',
@@ -64,7 +64,7 @@ const Data = [
   },
   {
     id: 'four',
-      title: 'Data Dashboard Healthcare',
+    title: 'Data Dashboard Healthcare',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     description1:
@@ -85,7 +85,7 @@ const Data = [
   },
   {
     id: 'five',
-      title: 'Profesional Art Printing Data',
+    title: 'Profesional Art Printing Data',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     description1:
@@ -106,7 +106,7 @@ const Data = [
   },
   {
     id: 'six',
-        title: 'Data Dashboard Healthcare',
+    title: 'Data Dashboard Healthcare',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     description1:
@@ -127,7 +127,7 @@ const Data = [
   },
   {
     id: 'seven',
-      title: 'Data Dashboard Healthcare',
+    title: 'Data Dashboard Healthcare',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     description1:
@@ -148,4 +148,4 @@ const Data = [
   },
 ];
 
-export default Data
+export default Data;

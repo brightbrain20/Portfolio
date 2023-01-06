@@ -1,12 +1,10 @@
-import Data from "./module/data.js";
-
+import Data from './module/data.js';
 
 const mobileNavBtn = document.querySelector('.dropdown-img');
 const removeBtn = document.querySelector('.remove-btn');
 const mobileNav = document.querySelector('#mobile-navigation');
 const mobileNavLinks = document.querySelectorAll('.mobile-item');
 const popupContainer = document.querySelector('.popup');
-
 
 const navToggle = () => {
   mobileNav.classList.toggle('active');
@@ -20,25 +18,11 @@ mobileNavLinks.forEach((link) => {
   link.addEventListener('click', navToggle);
 });
 
-
-const cardBtn = document.querySelectorAll ('.cards')
-cardBtn.forEach(btn => {
-  btn.addEventListener('click', () => {
-    const btnId = btn.getAttribute('id') 
-    displayPopup(btnId)
-    const closePopupBtn = document.querySelector('.exit');
-    closePopupBtn.addEventListener('click', () => {
-      popupContainer.innerHTML = ''
-    })
-  })
-  
-});
-
-  const displayPopup = (id) => {
-    Data.forEach(data => {
-      const dataId = data.id;
-      if(dataId === id) {
-        popupContainer.innerHTML = `
+const displayPopup = (id) => {
+  Data.forEach((data) => {
+    const dataId = data.id;
+    if (dataId === id) {
+      popupContainer.innerHTML = `
         <div class="popup2">
         <div class="multi-container">
           
@@ -73,7 +57,19 @@ cardBtn.forEach(btn => {
         </div>
        
       </div>
-        `
-      }
-    })
-  }
+        `;
+    }
+  });
+};
+
+// const cardBtn = document.querySelectorAll('.cards');
+// cardBtn.forEach((btn) => {
+//   btn.addEventListener('click', () => {
+//     const btnId = btn.getAttribute('id');
+//     displayPopup(btnId);
+//     const closePopupBtn = document.querySelector('.exit');
+//     closePopupBtn.addEventListener('click', () => {
+//       popupContainer.innerHTML = '';
+//     });
+//   });
+// });
