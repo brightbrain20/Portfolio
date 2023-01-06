@@ -481,7 +481,6 @@ h2 {
 .popup2 .link-img {
   width: 100px;
   border: none;
-  
 }
 
 .popup2 .link-img .btn2 {
@@ -864,7 +863,6 @@ textarea {
     margin-left: 20px;
     height: 40px;
     margin-bottom: 30px;
-
   }
 
   .popup2 ul {
@@ -902,6 +900,7 @@ textarea {
     height: 40px;
     padding-left: 60px;
     margin-top: 180px;
+
     /* height: 40px;
     position: absolute;
     bottom: 80px; */
