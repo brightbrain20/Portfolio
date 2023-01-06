@@ -427,7 +427,7 @@ h2 {
   margin-top: 0;
   padding-top: 0;
   font-weight: 700;
-  line-height: 44px;
+  line-height: 35px;
 }
 
 .exit {
@@ -455,6 +455,10 @@ h2 {
   font-weight: 600;
   padding: 10px;
   color: #3c3a39;
+}
+
+.popup2 .img img {
+  height: 210px;
 }
 
 .popup2 img {
@@ -863,6 +867,7 @@ textarea {
     margin-left: 20px;
     height: 40px;
     margin-bottom: 30px;
+    gap: 8px;
   }
 
   .popup2 ul {
@@ -874,6 +879,19 @@ textarea {
 
   .content-container {
     display: flex;
+  }
+
+  .popup-body {
+    position: relative;
+  }
+
+  .popup-body ul {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .popup2 .img img {
+    height: 420px;
   }
 
   .popup2 img {
@@ -892,23 +910,26 @@ textarea {
   }
 
   .popup2 .link-img {
-    width: 80px;
+    width: 85%;
     border: none;
+    margin-bottom: 0;
+    padding-bottom: 4px;
   }
 
   .popup2 .link-img img {
     height: 40px;
-    padding-left: 60px;
-    margin-top: 180px;
+    margin-bottom: 0;
+    /* padding-left: 60px; */
+    /* margin-top: 180px; */
 
     /* height: 40px;
     position: absolute;
     bottom: 80px; */
   }
 
-  .popup2 .link-img .btn2 {
+  /* .popup2 .link-img .btn2 {
     margin-left: 70px;
-  }
+  } */
 
   /* ...........footer-section............. */
   .footer-section {

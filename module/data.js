@@ -5,8 +5,8 @@ const Data = [
     title: 'Multi-Post Stories',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-      featured_image: {
-        image: './Images/Snapshoot Portfolio.png',
+    featured_image: {
+      image: './Images/Img Placeholder.png',
     },
     technologies: [
       'css',
@@ -27,7 +27,7 @@ const Data = [
     description1:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     featured_image: {
-      image: './Images/Snapshoot Portfolio.png',
+      image: './Images/Img\ Placeholder\ \(1\).png',
     },
     technologies: [
       'html',
@@ -46,8 +46,8 @@ const Data = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     description1:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-      featured_image: {
-        image: './Images/Snapshoot Portfolio.png',
+    featured_image: {
+      image: './Images/Img Placeholder (4).png',
     },
     technologies: [
       'html',
@@ -66,8 +66,8 @@ const Data = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     description1:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-      featured_image: {
-        image: './Images/Snapshoot Portfolio.png',
+    featured_image: {
+      image: './Images/Img Placeholder (4).png',
     },
     technologies: [
       'html',
@@ -86,8 +86,9 @@ const Data = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     description1:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-      featured_image: {
-        image: './Images/Snapshoot Portfolio.png',
+    featured_image: {
+      image: './Images/Img\ Placeholder\ \(1\).png',
+
     },
     technologies: [
       'html',
@@ -106,8 +107,8 @@ const Data = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     description1:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-      featured_image: {
-        image: './Images/Snapshoot Portfolio.png',
+    featured_image: {
+      image: './Images/Img Placeholder (4).png',
     },
     technologies: [
       'html',
@@ -126,8 +127,8 @@ const Data = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     description1:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-      featured_image: {
-        image: './Images/Snapshoot Portfolio.png',
+    featured_image: {
+      image: './Images/Img Placeholder (4).png',
     },
     technologies: [
       'html',

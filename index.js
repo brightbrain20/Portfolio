@@ -39,7 +39,7 @@ const displayPopup = (id) => {
           <div class="img">
             <img src="${data.featured_image.image}" alt="img">
           </div>
-          <div>
+          <div class="popup-body">
             <p> ${data.description}</p>
             <ul>
               <li class="link-img">
