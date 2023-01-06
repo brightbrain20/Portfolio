@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-size: 16px;
+  transition: all 0.3s linear;
 }
 
 body {
@@ -395,6 +396,112 @@ h2 {
   color: #5b5957;
 }
 
+/* .....popup section...... */
+.popup {
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.93);
+  height: 100%;
+}
+
+.popup2 {
+  width: 90%;
+  margin: auto;
+  margin-top: 25px;
+  background-color: #fff;
+  height: 90%;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.popup2 .multi-container {
+  display: flex;
+  padding-top: 16px;
+  padding-right: 10px;
+}
+
+.multi-container h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #172b4d;
+  font-size: 30px;
+  margin-top: 0;
+  padding-top: 0;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+.exit {
+  color: #67798e;
+  font-size: 30px;
+  font-family: sans-serif, serif;
+}
+
+.exit:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.popup2 .language {
+  width: 90%;
+  margin: auto;
+  gap: 2px;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+
+.popup2 .language li {
+  border: 2px solid #dfe1e6;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  padding: 8px;
+  color: #3c3a39;
+}
+
+.popup2 img {
+  width: 300px;
+  padding-left: 20px;
+}
+
+.popup2 .img img {
+  height: 210px;
+}
+
+.popup-body ul {
+  width: 75%;
+  margin-left: 23px;
+}
+
+.popup2 p {
+  color: #344563;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 20px;
+  text-align: justify;
+}
+
+.popup2 p ul {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.popup2 .link-img {
+  width: 100px;
+  border: none;
+}
+
+.popup2 .link-img .btn2 {
+  width: 150px;
+  padding-right: 10px;
+}
+
+.popup2 .link-img:hover {
+  cursor: pointer;
+}
+
 /* .......footer section........... */
 .footer-section {
   text-align: center;
@@ -744,6 +851,103 @@ textarea {
   .footer-list {
     padding-top: 0;
   }
+
+  /* ......desktop popup..... */
+  .popup2 {
+    width: 80%;
+    height: 83%;
+  }
+
+  .popup2 .multi-container {
+    justify-content: space-between;
+    padding-bottom: 10px;
+
+    /* margin-top: 30px; */
+  }
+
+  .multi-container h2 {
+    height: 0;
+  }
+
+  .language {
+    width: 100%;
+    justify-content: flex-start;
+    margin-left: 20px;
+    height: 40px;
+    margin-bottom: 30px;
+    gap: 8px;
+  }
+
+  .popup2 .language {
+    width: 100%;
+    margin: 0;
+    margin-left: 24px;
+    gap: 4px;
+  }
+
+  .content-container {
+    display: flex;
+    margin-top: 28px;
+  }
+
+  .popup-body {
+    position: relative;
+  }
+
+  .popup-body ul {
+    width: 34%;
+    position: absolute;
+    bottom: 0;
+    margin-left: 0;
+    justify-content: flex-start;
+  }
+
+  .popup-body ul li {
+    width: 10px;
+  }
+
+  .popup2 img {
+    width: 600px;
+    height: 369px;
+  }
+
+  .popup2 .img img {
+    height: 420px;
+  }
+
+  .popup2 p {
+    line-height: 1.5;
+    font-size: 16px;
+  }
+
+  .popup2 p ul {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .popup2 .link-img {
+    width: 85%;
+    border: none;
+    margin-bottom: 0;
+    padding-bottom: 4px;
+  }
+
+  .popup2 .link-img img {
+    height: 40px;
+    margin-bottom: 0;
+
+    /* padding-left: 60px; */
+
+    /* margin-top: 180px; */
+
+    /* height: 40px;
+    position: absolute;
+    bottom: 80px; */
+  }
+
+  /* .popup2 .link-img .btn2 {
+    margin-left: 70px;
+  } */
 
   /* ...........footer-section............. */
   .footer-section {
