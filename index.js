@@ -37,7 +37,7 @@ const displayPopup = (id) => {
         </ul>
         <div class="content-container">
           <div class="img">
-            <img src="${data.featured_image.mobile}" alt="img">
+            <img src="${data.featured_image.image}" alt="img">
           </div>
           <div>
             <p> ${data.description}</p>

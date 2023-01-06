@@ -5,9 +5,8 @@ const Data = [
     title: 'Multi-Post Stories',
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    featured_image: {
-      mobile: './Images/Img Placeholder.png',
-      desktop: './Images/Img Placeholder (2).png',
+      featured_image: {
+        image: './Images/Snapshoot Portfolio.png',
     },
     technologies: [
       'css',
@@ -28,8 +27,7 @@ const Data = [
     description1:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
     featured_image: {
-      mobile: './Images/Img\ Placeholder\ \(1\).png',
-      desktop: './Images/Img\ Placeholder\ \(1\).png',
+      image: './Images/Snapshoot Portfolio.png',
     },
     technologies: [
       'html',
@@ -48,9 +46,8 @@ const Data = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     description1:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    featured_image: {
-      mobile: './Images/Img Placeholder (4).png',
-      desktop: './Images/Img Placeholder (4).png',
+      featured_image: {
+        image: './Images/Snapshoot Portfolio.png',
     },
     technologies: [
       'html',
@@ -69,9 +66,8 @@ const Data = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     description1:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    featured_image: {
-      mobile: './Images/Img Placeholder (4).png',
-      desktop: './Images/Img Placeholder (4).png',
+      featured_image: {
+        image: './Images/Snapshoot Portfolio.png',
     },
     technologies: [
       'html',
@@ -90,9 +86,8 @@ const Data = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     description1:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    featured_image: {
-      desktop: './Images/Img\ Placeholder\ \(1\).png',
-      mobile: './Images/Img\ Placeholder\ \(1\).png',
+      featured_image: {
+        image: './Images/Snapshoot Portfolio.png',
     },
     technologies: [
       'html',
@@ -111,9 +106,8 @@ const Data = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     description1:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    featured_image: {
-      mobile: './Images/Img Placeholder (4).png',
-      desktop: './Images/Img Placeholder (4).png',
+      featured_image: {
+        image: './Images/Snapshoot Portfolio.png',
     },
     technologies: [
       'html',
@@ -132,9 +126,8 @@ const Data = [
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     description1:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    featured_image: {
-      mobile: './Images/Img Placeholder (4).png',
-      desktop: './Images/Img Placeholder (4).png',
+      featured_image: {
+        image: './Images/Snapshoot Portfolio.png',
     },
     technologies: [
       'html',

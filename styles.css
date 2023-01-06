@@ -443,7 +443,7 @@ h2 {
 
 .popup2 ul {
   margin-top: 0;
-  width: 80%;
+  width: 85%;
   flex-wrap: wrap;
   padding: 0 20px 20px 20px;
 }
@@ -481,6 +481,12 @@ h2 {
 .popup2 .link-img {
   width: 100px;
   border: none;
+  
+}
+
+.popup2 .link-img .btn2 {
+  width: 150px;
+  padding-right: 10px;
 }
 
 .popup2 .link-img:hover {
@@ -855,14 +861,17 @@ textarea {
   .language {
     width: 100%;
     justify-content: flex-start;
-    gap: 10px;
+    margin-left: 20px;
+    height: 40px;
+    margin-bottom: 30px;
+
   }
 
   .popup2 ul {
     margin-top: 0;
     width: 30%;
     flex-wrap: nowrap;
-    padding: 0 20px 20px 20px;
+    padding: 0;
   }
 
   .content-container {
@@ -870,7 +879,7 @@ textarea {
   }
 
   .popup2 img {
-    width: 500px;
+    width: 600px;
     height: 369px;
   }
 
@@ -891,12 +900,15 @@ textarea {
 
   .popup2 .link-img img {
     height: 40px;
+    padding-left: 60px;
+    margin-top: 180px;
+    /* height: 40px;
     position: absolute;
-    bottom: 80px;
+    bottom: 80px; */
   }
 
   .popup2 .link-img .btn2 {
-    margin-left: 120px;
+    margin-left: 70px;
   }
 
   /* ...........footer-section............. */
