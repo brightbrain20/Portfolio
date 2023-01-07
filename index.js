@@ -76,7 +76,6 @@ cardBtn.forEach((btn) => {
 
 // FORM VALIDATION-------------------
 const form = document.getElementById('getintouch');
-console.log(form);
 const error = document.getElementById('error');
 const { email } = form.elements;
 

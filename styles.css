@@ -518,7 +518,8 @@ input {
   border-bottom: 1px solid #726f6e;
   padding: 0 0 12px 12px;
   outline: none;
-  background: #fbf8f7;}
+  background: #fbf8f7;
+}
 
 textarea {
   width: 90%;
@@ -553,15 +554,10 @@ textarea {
   display: block;
 }
 
-
 #email.active {
   border-bottom: 1px solid rgb(247, 2, 2);
-}
-
-#error.active {
   display: inline-block;
 }
-
 
 .footer-line {
   margin-top: 124px;
