@@ -518,7 +518,7 @@ input {
   border-bottom: 1px solid #726f6e;
   padding: 0 0 12px 12px;
   outline: none;
-}
+  background: #fbf8f7;}
 
 textarea {
   width: 90%;
@@ -540,6 +540,28 @@ textarea {
   line-height: 24px;
   font-size: 17px;
 }
+
+/* ......form validation....... */
+#error {
+  color: red;
+  font-size: 14px;
+  display: none;
+  margin-top: 5px;
+}
+
+#error.active {
+  display: block;
+}
+
+
+#email.active {
+  border-bottom: 1px solid rgb(247, 2, 2);
+}
+
+#error.active {
+  display: inline-block;
+}
+
 
 .footer-line {
   margin-top: 124px;
@@ -903,6 +925,7 @@ textarea {
   .footer-section {
     display: flex;
     padding-top: 130px;
+    padding-left: 80px;
   }
 
   .footer-p {
@@ -917,34 +940,9 @@ textarea {
   }
 
   .mobile-form {
-    display: none;
-  }
-
-  .deskstop-form {
-    display: block;
-    width: 70%;
+    width: 60%;
     padding-right: 50px;
-  }
-
-  .input-form {
-    display: flex;
-    margin: 20px;
-  }
-
-  .first-name {
-    margin-right: 10px;
-  }
-
-  .form-btn {
-    text-align: left;
-  }
-
-  .git {
-    margin-left: 600px;
-  }
-
-  .footerLine {
-    display: none;
+    background-color: #fff;
   }
 
   /* ...amination and transition section... */
